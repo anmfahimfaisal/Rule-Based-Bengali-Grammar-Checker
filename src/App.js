@@ -7,6 +7,7 @@ import Textfield from './Components/Textfield';
 import Checkbtn from './Components/Checkbtn';
 import Result from './Components/Result';
 import Footer from './Components/Footer';
+import Loading from './Components/Loading';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
           <Navbar />
           <Textfield />
           <Checkbtn />
+          <Loading />
           <Result />
           <Footer />
       </div>
